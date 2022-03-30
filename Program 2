@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Number Squares and Cubes</title>
+</head>
+<body bgcolor="#00ffff">
+<h1 align="center">The Number Squares and Cubes are...</h1>
+<table border="1" align="center" width="30%">
+<tr>
+<th>Number</th><th>Square</th><th>Cube</th>
+</tr>
+<script type="text/javascript">
+for(var i=1;i<=10;i++)
+document.write("<tr align='center'><td>" +i+ "</td><td>" +i*i+ "</td><td>" +i*i*i+" </td></tr>");
+</script>
+</table>
+</body>
+</html>
