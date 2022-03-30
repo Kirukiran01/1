@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="student.css"?>
+<students>
+<student>
+<head>Student1</head>
+<label>Usn:<usn>1CG16CS001</usn></label>
+<label>Name:<name>Anil Kumar</name></label>
+<label>College:<college>CIT</college></label>
+<label>Branch:<branch>CSE</branch></label>
+<label>Year:<year>2016</year></label>
+<label>Email:<email>anileverywhere@cittumkur.org</email></label>
+</student>
+<student>
+<head>Student2</head>
+<label>Usn:<usn>1CG16CS002</usn></label>
+<label>Name:<name>Amith Kumar</name></label>
+<label>College:<college>CIT</college></label>
+<label>Branch:<branch>CSE</branch></label>
+<label>Year:<year>2016</year></label>
+<label>Email:<email>amith@cittumkur.org</email></label>
+</student>
+<student>
+<head>Student3</head>
+<label>Usn:<usn>1CG16CS003</usn></label>
+<label>Name:<name>Asha</name></label>
+<label>College:<college>CIT</college></label>
+<label>Branch:<branch>CSE</branch></label>
+<label>Year:<year>2016</year></label>
+<label>Email:<email>asha@cittumkur.org</email></label>
+</student>
+</students>
+
+
+------------------------------------
+Student.CSS
+student {display:block; margin-top:10px; margin-left:10px; color:navy;}
+head {display:block; margin-top:5pt; color:green; font-size:18pt;}
+label {display:block; margin-left:10px; color:black; font-size:16pt; color:blue}
+usn,name,college,branch,year,email {margin-left:10px; color:red; font-size:14pt;}
